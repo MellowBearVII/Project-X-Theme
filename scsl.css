@@ -1,5 +1,6 @@
 
-/*DO NOT CHANGE THIS */
+/* DO NOT CHANGE THIS AT ALL!!! */
+
 
 :root {
 	--accent-color: #93e4f7;
@@ -1598,10 +1599,25 @@ a,
 
 /* ACTIVITY -> GAME PREVIEW */
 
+.theme-dark .card-3DjzTQ, .theme-dark .cardPlaceholder-1zrbbe {
+    background: #202225;
+    border: 2px solid var(--accent-color);
+}
+.theme-dark .activeButton-1BJAiN, .theme-dark .activeButton-1BJAiN:hover {
+    color: #fff;
+    background-color: var(--accent-color);
+}
+.theme-dark .expandedFolderBackground-2sPsd-, .theme-dark .folder-21wGz3, .theme-light .expandedFolderBackground-2sPsd-, .theme-light .folder-21wGz3 {
+    background-color: #131313;
+}
 .sideBar-2_lxpG {
 	margin: 0;
 	padding: 40px 20px 20px;
 	background: var(--side-color) !important;
+}
+
+.bda-dark .theme-light .slide-2pHaq5 {
+    background: #131313;
 }
 
 .disabledButton-3apIHo,
@@ -3245,9 +3261,7 @@ a,
 	padding: 12px 0 0 0;
 	overflow: visible;
 }
-.bda-dark .theme-light .slide-2pHaq5 {
-    background: #131313;
-}
+
 #bd-settingspane-container .ui-switch-item .style-description {
 	margin: -1px 0 20px 0;
 	padding: 0 0 15px 0;
