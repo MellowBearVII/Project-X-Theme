@@ -3245,7 +3245,9 @@ a,
 	padding: 12px 0 0 0;
 	overflow: visible;
 }
-
+.bda-dark .theme-light .slide-2pHaq5 {
+    background: #131313;
+}
 #bd-settingspane-container .ui-switch-item .style-description {
 	margin: -1px 0 20px 0;
 	padding: 0 0 15px 0;
