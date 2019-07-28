@@ -1,12 +1,5 @@
-//META{"name":"Project_X_Theme","description":"Project X Theme based on Project X","author":"Mellow","version":"1.2.7"}*//{}
-
-
-/* BACKGROUND IMAGE */
 :root {
-    --backgroundimage-imgur: url(https://i.imgur.com/vL1bh7r.png);
-}
-
-:root {
+	--accent-color: #93e4f7;
 	--maincolor: #131313;
 	--accent-rgb: var(--accent-color);
 	
@@ -26,7 +19,7 @@
 	--slider-color: #b2b2b2;
 	--slider-background: var(--menu-border-color);
 
-	--popout-color: var(--bar-color);
+	--popout-color: #080808;
 	--menu-hover-color: rgba(255,255,255,0.105);
 	--menu-hover-color-alt: #252525;
 	--menu-border-color: #424242;
