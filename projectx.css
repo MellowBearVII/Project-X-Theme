@@ -4514,7 +4514,7 @@ textarea.input-cIJ7To::-webkit-input-placeholder {
     box-shadow: inset 0 2px 0 var(--maincolor);
 }
 .headerPlaying-j0WQBV {
-    background: var(--maincolor);
+    background: #080808;
 }
 .botTagInvert-18-95s {
     background: var(--maincolor);
@@ -4768,8 +4768,57 @@ textarea.input-cIJ7To::-webkit-input-placeholder {
 	border: none !important;
 }
 
+.theme-dark .avatarUploaderIndicator-2G-aIZ {
+    background-color: #131313;
+}
+.theme-dark .tierAccomplished-2eXPdI, .theme-dark .tierCurrent-Lw7-4E, .theme-dark .tierDefault-2qaRkD, .theme-light .tierAccomplished-2eXPdI, .theme-light .tierCurrent-Lw7-4E, .theme-light .tierDefault-2qaRkD {
+    background-image: -webkit-gradient(linear,left top,right top,from(var(--accent-color)),to(var(--accent-color)));
+    background-image: linear-gradient(90deg,var(--accent-color),var(--accent-color));
+}
+.bda-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    background: #131313;
+    border: 2px solid var(--accent-color);
+}
+.regionSelectName-2-2FWh {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+.theme-dark .tierHeaderLocked-1a2opw {
+    background-color: #080808;
+    color: #b9bbbe;
+}
+.theme-dark .tierLock-1oFMOZ {
+    color: var(--accent-color);
+}
+.theme-dark .tierBody-x9kBBp {
+    background-color: #080808;
+    color: #fff;
+}
+.css-15ejc46-control {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #131313;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    transition: border 0.15s ease 0s;
+    outline: 0px !important;
+}
+
 .backdrop-1wrmKB {
 	z-index: 999999;
+}
+.theme-dark .premiumGuildIcon-BhwtRn, .theme-light .premiumGuildIcon-BhwtRn {
+    color: var(--accent-color);
 }
 
 /* POPOUT MENUS -> SERVER SETTINGS */
